@@ -1,1 +1,54 @@
-@import "nullstyle.scss"
+        @import "nullstyle.scss";
+        .container {
+            max-width: 1080px;
+            margin: 0 auto;
+        }
+        
+        .wrapper-main-page {}
+        
+        .ellipse-main {
+            position: absolute;
+            width: 679px;
+            height: 679px;
+            left: -50px;
+            top: -24px;
+            z-index: 2;
+        }
+        
+        .header {
+            &__row {
+                padding-top: 48px;
+                display: flex;
+                justify-content: space-between;
+            }
+            &__logo {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 24px;
+                text-transform: uppercase;
+                color: #272D38;
+            }
+            &__menu {
+                max-width: 60%;
+                ul {
+                    display: flex;
+                    justify-content: space-evenly;
+                }
+                li {
+                    margin: 0 22px;
+                    // 
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 28px;
+                    /* identical to box height, or 153% */
+                    text-transform: lowercase;
+                    a {
+                        color: #272D38;
+                    }
+                }
+            }
+        }
