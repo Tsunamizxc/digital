@@ -201,3 +201,91 @@ h1, h2, h3, h4, h5, h6 {
 .links__row a:last-child {
   padding-right: 0px;
 }
+
+.creative {
+  margin-top: 136px;
+}
+.creative__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.creative__img {
+  max-width: 450px;
+}
+.creative__content {
+  max-width: 453px;
+}
+.creative__title {
+  padding-bottom: 26px;
+}
+.creative__title h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  /* or 48px */
+  text-transform: capitalize;
+  color: #272D38;
+}
+.creative__discription {
+  padding-bottom: 46px;
+}
+.creative__discription p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 172% */
+  text-transform: capitalize;
+  color: #272D38;
+}
+.ellipse-creative {
+  position: absolute;
+  right: 0;
+  top: 831px;
+  z-index: -1;
+}
+
+.custom {
+  margin-top: 136px;
+}
+.custom__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.custom__content {
+  max-width: 450px;
+}
+.custom__title {
+  padding-bottom: 25px;
+}
+.custom__title h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  /* or 48px */
+  text-transform: capitalize;
+  color: #272D38;
+}
+.custom__discription {
+  padding-bottom: 45px;
+}
+.custom__discription p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 172% */
+  text-transform: capitalize;
+  color: #272D38;
+}
+.custom__img {
+  max-width: 450px;
+}

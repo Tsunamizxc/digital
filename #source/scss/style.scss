@@ -142,3 +142,96 @@
                 }
             }
         }
+        
+        // creative
+        .creative {
+            margin-top: 136px;
+            &__row {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            &__img {
+                max-width: 450px;
+            }
+            &__content {
+                max-width: 453px;
+            }
+            &__title {
+                padding-bottom: 26px;
+                h2 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 48px;
+                    line-height: 100%;
+                    /* or 48px */
+                    text-transform: capitalize;
+                    color: #272D38;
+                }
+            }
+            &__discription {
+                padding-bottom: 46px;
+                p {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    /* or 172% */
+                    text-transform: capitalize;
+                    color: #272D38;
+                }
+            }
+            &__btn {}
+        }
+        
+        .ellipse-creative {
+            position: absolute;
+            right: 0;
+            top: 831px;
+            z-index: -1;
+        }
+        
+        // custom
+        .custom {
+            margin-top: 136px;
+            &__row {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            &__content {
+                max-width: 450px;
+            }
+            &__title {
+                padding-bottom: 25px;
+                h2 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 48px;
+                    line-height: 100%;
+                    /* or 48px */
+                    text-transform: capitalize;
+                    color: #272D38;
+                }
+            }
+            &__discription {
+                padding-bottom: 45px;
+                p {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    /* or 172% */
+                    text-transform: capitalize;
+                    color: #272D38;
+                }
+            }
+            &__btn {}
+            &__img {
+                max-width: 450px;
+            }
+        }
