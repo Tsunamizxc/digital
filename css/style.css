@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 679px;
   left: -50px;
   top: -24px;
-  z-index: 2;
+  z-index: -1;
 }
 
 .header__row {
@@ -119,4 +119,85 @@ h1, h2, h3, h4, h5, h6 {
 }
 .header__menu li a {
   color: #272D38;
+}
+
+.home {
+  margin-top: 97px;
+}
+.home__row {
+  display: flex;
+  justify-content: space-between;
+}
+.content__title h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100%;
+  /* or 64px */
+  text-transform: capitalize;
+  color: #272D38;
+}
+.content__discription {
+  margin-top: 24px;
+}
+.content__discription p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 153% */
+  text-transform: capitalize;
+  color: #272D38;
+}
+.content__btn {
+  margin-top: 44px;
+}
+.content__btn a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 172% */
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 15px 30px;
+  background: #8EADD5;
+  border-radius: 8px;
+  max-width: 167px;
+}
+
+.links {
+  margin-top: 157px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.links__header {
+  text-align: center;
+  margin-bottom: 16px;
+}
+.links__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+  text-transform: capitalize;
+  color: #667085;
+}
+.links__row {
+  padding: 25px;
+  background-color: #F6F6F6;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+.links__row a {
+  padding-right: 115px;
+}
+.links__row a:last-child {
+  padding-right: 0px;
 }

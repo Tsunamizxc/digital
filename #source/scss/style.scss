@@ -4,7 +4,7 @@
             margin: 0 auto;
         }
         
-        .wrapper-main-page {}
+        .wrapper-nav {}
         
         .ellipse-main {
             position: absolute;
@@ -12,7 +12,7 @@
             height: 679px;
             left: -50px;
             top: -24px;
-            z-index: 2;
+            z-index: -1;
         }
         
         .header {
@@ -49,6 +49,96 @@
                     a {
                         color: #272D38;
                     }
+                }
+            }
+        }
+        
+        // home
+        .home {
+            margin-top: 97px;
+            &_img {}
+            &__row {
+                display: flex;
+                justify-content: space-between;
+            }
+            &__content {}
+        }
+        
+        .content {
+            &__title {
+                h1 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 64px;
+                    line-height: 100%;
+                    /* or 64px */
+                    text-transform: capitalize;
+                    color: #272D38;
+                }
+            }
+            &__discription {
+                margin-top: 24px;
+                p {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 28px;
+                    /* or 153% */
+                    text-transform: capitalize;
+                    color: #272D38;
+                }
+            }
+            &__btn {
+                margin-top: 44px;
+                a {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 28px;
+                    /* identical to box height, or 172% */
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                    padding: 15px 30px;
+                    background: #8EADD5;
+                    border-radius: 8px;
+                    max-width: 167px;
+                }
+            }
+        }
+        
+        // links
+        .links {
+            margin-top: 157px;
+            &__header {
+                text-align: center;
+                margin-bottom: 16px;
+            }
+            &__title {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 100%;
+                /* identical to box height, or 16px */
+                text-transform: capitalize;
+                color: #667085;
+            }
+            display: flex;
+            justify-content: space-evenly;
+            &__row {
+                padding: 25px;
+                background-color: #F6F6F6;
+                border-radius: 8px;
+                margin: 0 auto;
+                a {
+                    padding-right: 115px;
+                }
+                a:last-child {
+                    padding-right: 0px;
                 }
             }
         }
