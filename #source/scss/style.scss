@@ -235,3 +235,85 @@
                 max-width: 450px;
             }
         }
+        
+        .reviews {
+            margin-top: 136px;
+            &__header {
+                text-align: center;
+            }
+            &__title {
+                padding-bottom: 16px;
+                h5 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    /* or 172% */
+                    text-transform: capitalize;
+                    color: #272D38;
+                }
+            }
+            &__discriptions {
+                padding-bottom: 38px;
+                p {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 48px;
+                    line-height: 100%;
+                    /* or 48px */
+                    text-align: center;
+                    text-transform: capitalize;
+                    color: #272D38;
+                }
+            }
+            &__row {
+                display: flex;
+            }
+            &__columns {
+                display: flex;
+            }
+            &__column {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 32px;
+                background: #F6F6F6;
+                border-radius: 20px;
+                margin-right: 15px;
+            }
+            &__column:last-child {
+                margin-right: 0px;
+            }
+            &__column-img {
+                max-width: 129px;
+                padding-bottom: 8px;
+            }
+            &__column-name {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 28px;
+                /* identical to box height, or 153% */
+                text-transform: capitalize;
+                color: #272D38;
+            }
+            &__column-body {
+                padding-top: 27px;
+                p {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 130%;
+                    /* or 18px */
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    text-transform: capitalize;
+                    color: #272D38;
+                }
+            }
+        }

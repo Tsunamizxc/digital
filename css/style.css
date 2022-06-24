@@ -289,3 +289,85 @@ h1, h2, h3, h4, h5, h6 {
 .custom__img {
   max-width: 450px;
 }
+
+.reviews {
+  margin-top: 136px;
+}
+.reviews__header {
+  text-align: center;
+}
+.reviews__title {
+  padding-bottom: 16px;
+}
+.reviews__title h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 172% */
+  text-transform: capitalize;
+  color: #272D38;
+}
+.reviews__discriptions {
+  padding-bottom: 38px;
+}
+.reviews__discriptions p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  /* or 48px */
+  text-align: center;
+  text-transform: capitalize;
+  color: #272D38;
+}
+.reviews__row {
+  display: flex;
+}
+.reviews__columns {
+  display: flex;
+}
+.reviews__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+  background: #F6F6F6;
+  border-radius: 20px;
+  margin-right: 15px;
+}
+.reviews__column:last-child {
+  margin-right: 0px;
+}
+.reviews__column-img {
+  max-width: 129px;
+  padding-bottom: 8px;
+}
+.reviews__column-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 153% */
+  text-transform: capitalize;
+  color: #272D38;
+}
+.reviews__column-body {
+  padding-top: 27px;
+}
+.reviews__column-body p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 130%;
+  /* or 18px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #272D38;
+}
