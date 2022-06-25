@@ -317,3 +317,117 @@
                 }
             }
         }
+        
+        .works {
+            margin-top: 136px;
+            &__row {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                background: #F6F6F6;
+                border-radius: 20px;
+            }
+            &__img {
+                max-width: 650px;
+            }
+            &__body {
+                max-width: 650px;
+            }
+            &__body-title {
+                max-width: 360px;
+                padding-bottom: 16px;
+                h2 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 48px;
+                    line-height: 100%;
+                    /* or 48px */
+                    color: #272D38;
+                }
+            }
+            &__body-discription {
+                max-width: 360px;
+                padding-bottom: 32px;
+                p {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    /* or 172% */
+                    color: #272D38;
+                }
+            }
+            &__body-btn {
+                a {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 28px;
+                    /* or 172% */
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                    padding: 15px 30px;
+                    background: #8EADD5;
+                    border-radius: 8px;
+                }
+            }
+        }
+        
+        .footer {
+            background: #F6F6F6;
+            margin-top: 138px;
+            &__row {}
+            &__columns {
+                display: flex;
+                justify-content: space-between;
+                padding-top: 104px;
+                padding-bottom: 144px;
+            }
+            &__column {
+                display: flex;
+                flex-direction: column;
+            }
+            &__column-title {
+                padding-bottom: 34px;
+                h5 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 28px;
+                    /* or 153% */
+                    text-transform: capitalize;
+                    color: #272D38;
+                }
+            }
+            &__column-links {
+                display: flex;
+                flex-direction: column;
+                max-width: 190px;
+                a {
+                    /* Span Text */
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 150%;
+                    /* or 24px */
+                    text-transform: capitalize;
+                    color: #272D38;
+                    padding-bottom: 24px;
+                }
+            }
+            .tag {
+                text-align: center;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 100%;
+                /* identical to box height, or 16px */
+                color: #272D38;
+            }
+        }

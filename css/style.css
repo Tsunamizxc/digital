@@ -371,3 +371,114 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: capitalize;
   color: #272D38;
 }
+
+.works {
+  margin-top: 136px;
+}
+.works__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #F6F6F6;
+  border-radius: 20px;
+}
+.works__img {
+  max-width: 650px;
+}
+.works__body {
+  max-width: 650px;
+}
+.works__body-title {
+  max-width: 360px;
+  padding-bottom: 16px;
+}
+.works__body-title h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  /* or 48px */
+  color: #272D38;
+}
+.works__body-discription {
+  max-width: 360px;
+  padding-bottom: 32px;
+}
+.works__body-discription p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 172% */
+  color: #272D38;
+}
+.works__body-btn a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 172% */
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 15px 30px;
+  background: #8EADD5;
+  border-radius: 8px;
+}
+
+.footer {
+  background: #F6F6F6;
+  margin-top: 138px;
+}
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 104px;
+  padding-bottom: 144px;
+}
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+.footer__column-title {
+  padding-bottom: 34px;
+}
+.footer__column-title h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 153% */
+  text-transform: capitalize;
+  color: #272D38;
+}
+.footer__column-links {
+  display: flex;
+  flex-direction: column;
+  max-width: 190px;
+}
+.footer__column-links a {
+  /* Span Text */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  text-transform: capitalize;
+  color: #272D38;
+  padding-bottom: 24px;
+}
+.footer .tag {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+  color: #272D38;
+}
